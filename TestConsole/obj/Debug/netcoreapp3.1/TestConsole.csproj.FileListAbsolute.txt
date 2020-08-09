@@ -1,0 +1,13 @@
+C:\Programs\semester3\TestConsole\bin\Debug\netcoreapp3.1\TestConsole.exe
+C:\Programs\semester3\TestConsole\bin\Debug\netcoreapp3.1\TestConsole.deps.json
+C:\Programs\semester3\TestConsole\bin\Debug\netcoreapp3.1\TestConsole.runtimeconfig.json
+C:\Programs\semester3\TestConsole\bin\Debug\netcoreapp3.1\TestConsole.runtimeconfig.dev.json
+C:\Programs\semester3\TestConsole\bin\Debug\netcoreapp3.1\TestConsole.dll
+C:\Programs\semester3\TestConsole\bin\Debug\netcoreapp3.1\TestConsole.pdb
+C:\Programs\semester3\TestConsole\obj\Debug\netcoreapp3.1\TestConsole.csprojAssemblyReference.cache
+C:\Programs\semester3\TestConsole\obj\Debug\netcoreapp3.1\TestConsole.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\TestConsole\obj\Debug\netcoreapp3.1\TestConsole.AssemblyInfoInputs.cache
+C:\Programs\semester3\TestConsole\obj\Debug\netcoreapp3.1\TestConsole.AssemblyInfo.cs
+C:\Programs\semester3\TestConsole\obj\Debug\netcoreapp3.1\TestConsole.dll
+C:\Programs\semester3\TestConsole\obj\Debug\netcoreapp3.1\TestConsole.pdb
+C:\Programs\semester3\TestConsole\obj\Debug\netcoreapp3.1\TestConsole.genruntimeconfig.cache

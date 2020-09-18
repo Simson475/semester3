@@ -1,0 +1,13 @@
+C:\Programs\semester3\CodeWars Test\bin\Debug\netcoreapp3.1\CodeWars Test.exe
+C:\Programs\semester3\CodeWars Test\bin\Debug\netcoreapp3.1\CodeWars Test.deps.json
+C:\Programs\semester3\CodeWars Test\bin\Debug\netcoreapp3.1\CodeWars Test.runtimeconfig.json
+C:\Programs\semester3\CodeWars Test\bin\Debug\netcoreapp3.1\CodeWars Test.runtimeconfig.dev.json
+C:\Programs\semester3\CodeWars Test\bin\Debug\netcoreapp3.1\CodeWars Test.dll
+C:\Programs\semester3\CodeWars Test\bin\Debug\netcoreapp3.1\CodeWars Test.pdb
+C:\Programs\semester3\CodeWars Test\obj\Debug\netcoreapp3.1\CodeWars Test.csprojAssemblyReference.cache
+C:\Programs\semester3\CodeWars Test\obj\Debug\netcoreapp3.1\CodeWars Test.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\CodeWars Test\obj\Debug\netcoreapp3.1\CodeWars Test.AssemblyInfoInputs.cache
+C:\Programs\semester3\CodeWars Test\obj\Debug\netcoreapp3.1\CodeWars Test.AssemblyInfo.cs
+C:\Programs\semester3\CodeWars Test\obj\Debug\netcoreapp3.1\CodeWars Test.dll
+C:\Programs\semester3\CodeWars Test\obj\Debug\netcoreapp3.1\CodeWars Test.pdb
+C:\Programs\semester3\CodeWars Test\obj\Debug\netcoreapp3.1\CodeWars Test.genruntimeconfig.cache

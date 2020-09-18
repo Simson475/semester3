@@ -1,0 +1,13 @@
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\bin\Debug\netcoreapp3.1\OOP002Inheritance.exe
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\bin\Debug\netcoreapp3.1\OOP002Inheritance.deps.json
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\bin\Debug\netcoreapp3.1\OOP002Inheritance.runtimeconfig.json
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\bin\Debug\netcoreapp3.1\OOP002Inheritance.runtimeconfig.dev.json
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\bin\Debug\netcoreapp3.1\OOP002Inheritance.dll
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\bin\Debug\netcoreapp3.1\OOP002Inheritance.pdb
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\obj\Debug\netcoreapp3.1\OOP002Inheritance.csprojAssemblyReference.cache
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\obj\Debug\netcoreapp3.1\OOP002Inheritance.AssemblyInfoInputs.cache
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\obj\Debug\netcoreapp3.1\OOP002Inheritance.AssemblyInfo.cs
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\obj\Debug\netcoreapp3.1\OOP002Inheritance.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\obj\Debug\netcoreapp3.1\OOP002Inheritance.dll
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\obj\Debug\netcoreapp3.1\OOP002Inheritance.pdb
+C:\Programs\semester3\OOP002Inheritance\OOP002Inheritance\obj\Debug\netcoreapp3.1\OOP002Inheritance.genruntimeconfig.cache

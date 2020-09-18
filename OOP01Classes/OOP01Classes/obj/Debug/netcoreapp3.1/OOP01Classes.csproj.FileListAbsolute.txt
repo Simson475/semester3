@@ -1,0 +1,13 @@
+C:\Programs\semester3\OOP01Classes\OOP01Classes\bin\Debug\netcoreapp3.1\OOP01Classes.exe
+C:\Programs\semester3\OOP01Classes\OOP01Classes\bin\Debug\netcoreapp3.1\OOP01Classes.deps.json
+C:\Programs\semester3\OOP01Classes\OOP01Classes\bin\Debug\netcoreapp3.1\OOP01Classes.runtimeconfig.json
+C:\Programs\semester3\OOP01Classes\OOP01Classes\bin\Debug\netcoreapp3.1\OOP01Classes.runtimeconfig.dev.json
+C:\Programs\semester3\OOP01Classes\OOP01Classes\bin\Debug\netcoreapp3.1\OOP01Classes.dll
+C:\Programs\semester3\OOP01Classes\OOP01Classes\bin\Debug\netcoreapp3.1\OOP01Classes.pdb
+C:\Programs\semester3\OOP01Classes\OOP01Classes\obj\Debug\netcoreapp3.1\OOP01Classes.csprojAssemblyReference.cache
+C:\Programs\semester3\OOP01Classes\OOP01Classes\obj\Debug\netcoreapp3.1\OOP01Classes.AssemblyInfoInputs.cache
+C:\Programs\semester3\OOP01Classes\OOP01Classes\obj\Debug\netcoreapp3.1\OOP01Classes.AssemblyInfo.cs
+C:\Programs\semester3\OOP01Classes\OOP01Classes\obj\Debug\netcoreapp3.1\OOP01Classes.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\OOP01Classes\OOP01Classes\obj\Debug\netcoreapp3.1\OOP01Classes.dll
+C:\Programs\semester3\OOP01Classes\OOP01Classes\obj\Debug\netcoreapp3.1\OOP01Classes.pdb
+C:\Programs\semester3\OOP01Classes\OOP01Classes\obj\Debug\netcoreapp3.1\OOP01Classes.genruntimeconfig.cache

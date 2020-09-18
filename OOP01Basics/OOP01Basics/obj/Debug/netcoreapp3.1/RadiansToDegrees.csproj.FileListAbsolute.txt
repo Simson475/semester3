@@ -1,0 +1,13 @@
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\bin\Debug\netcoreapp3.1\RadiansToDegrees.exe
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\bin\Debug\netcoreapp3.1\RadiansToDegrees.deps.json
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\bin\Debug\netcoreapp3.1\RadiansToDegrees.runtimeconfig.json
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\bin\Debug\netcoreapp3.1\RadiansToDegrees.runtimeconfig.dev.json
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\bin\Debug\netcoreapp3.1\RadiansToDegrees.dll
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\bin\Debug\netcoreapp3.1\RadiansToDegrees.pdb
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\obj\Debug\netcoreapp3.1\RadiansToDegrees.csprojAssemblyReference.cache
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\obj\Debug\netcoreapp3.1\RadiansToDegrees.AssemblyInfoInputs.cache
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\obj\Debug\netcoreapp3.1\RadiansToDegrees.AssemblyInfo.cs
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\obj\Debug\netcoreapp3.1\RadiansToDegrees.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\obj\Debug\netcoreapp3.1\RadiansToDegrees.dll
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\obj\Debug\netcoreapp3.1\RadiansToDegrees.pdb
+C:\Programs\semester3\RadiansToDegrees\RadiansToDegrees\obj\Debug\netcoreapp3.1\RadiansToDegrees.genruntimeconfig.cache

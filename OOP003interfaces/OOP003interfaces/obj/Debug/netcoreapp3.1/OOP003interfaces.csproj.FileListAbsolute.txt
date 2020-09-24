@@ -1,0 +1,13 @@
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\bin\Debug\netcoreapp3.1\OOP003interfaces.exe
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\bin\Debug\netcoreapp3.1\OOP003interfaces.deps.json
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\bin\Debug\netcoreapp3.1\OOP003interfaces.runtimeconfig.json
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\bin\Debug\netcoreapp3.1\OOP003interfaces.runtimeconfig.dev.json
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\bin\Debug\netcoreapp3.1\OOP003interfaces.dll
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\bin\Debug\netcoreapp3.1\OOP003interfaces.pdb
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\obj\Debug\netcoreapp3.1\OOP003interfaces.csprojAssemblyReference.cache
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\obj\Debug\netcoreapp3.1\OOP003interfaces.AssemblyInfoInputs.cache
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\obj\Debug\netcoreapp3.1\OOP003interfaces.AssemblyInfo.cs
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\obj\Debug\netcoreapp3.1\OOP003interfaces.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\obj\Debug\netcoreapp3.1\OOP003interfaces.dll
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\obj\Debug\netcoreapp3.1\OOP003interfaces.pdb
+C:\Programs\semester3\OOP003interfaces\OOP003interfaces\obj\Debug\netcoreapp3.1\OOP003interfaces.genruntimeconfig.cache

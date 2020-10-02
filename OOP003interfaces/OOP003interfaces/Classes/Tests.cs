@@ -32,9 +32,10 @@ namespace OOP003interfaces
                 new Car(){Make="vw", Model = "atest", Price = 45000},
                 new Car(){Make="Skoda", Model = "Fabia", Price = 5000},
                 new Car(){Make="Skoda", Model = "Octavia", Price = 60000}
-
             };
+
             cars.Sort(new ModelReversePriceComparer());
+
             foreach (var item in cars)
             {
                 item.Print();

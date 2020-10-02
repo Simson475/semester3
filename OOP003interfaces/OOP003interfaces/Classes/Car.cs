@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace OOP003interfaces
 {
-    class Car : IComparable
+    public class Car : IComparable
     {
         public string Make { get; set; }
         public string Model { get; set; }

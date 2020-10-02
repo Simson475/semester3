@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace OOP003interfaces
 {
-    class MakeModelPriceComparer : IComparer<Car>
+    public class MakeModelPriceComparer : IComparer<Car>
     {
         public int Compare(Car x, Car y)
         {

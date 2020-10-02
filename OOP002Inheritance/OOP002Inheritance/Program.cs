@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace OOP002Inheritance
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
@@ -22,6 +22,10 @@ namespace OOP002Inheritance
             {
                 Console.WriteLine(person.Name);
             }
+
+
+            ParkingMeter pm = new ParkingMeter(40);
+            pm.Pay(20);
         }
     }
 }

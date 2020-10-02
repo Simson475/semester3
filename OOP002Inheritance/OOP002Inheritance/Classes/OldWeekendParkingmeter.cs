@@ -1,6 +1,6 @@
 ﻿namespace OOP002Inheritance
 {
-    class WeekendParkingmeter : Parkingmeter
+    class OldWeekendParkingmeter : OldParkingMeter
     {
         public override double Rate { get; } = 20;
     }

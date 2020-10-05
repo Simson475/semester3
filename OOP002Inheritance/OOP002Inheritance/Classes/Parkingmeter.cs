@@ -1,13 +1,35 @@
-﻿namespace OOP002Inheritance
+﻿using System;
+
+namespace OOP002Inheritance
 {
-    abstract class Parkingmeter
+    class ParkingMeter
     {
-        public abstract double Rate { get; }
-        public double MinutesBought { get; set; }
+        public ParkingMeter() { }
+        public ParkingMeter(double payment)
+        {
+            Pay(payment);
+        }
+        public DateTime PaidUntill { get; private set; } = DateTime.Now;
         public void Pay(double payment)
         {
-            MinutesBought = payment / Rate;
-        }
+            DayOfWeek DayOfWeek = DateTime.Now.DayOfWeek;
 
+            switch (DayOfWeek)
+            {
+                case DayOfWeek.Saturday:
+                case DayOfWeek.Sunday:
+                    if (PaidUntill < DateTime.Now) PaidUntill = DateTime.Now;
+                    WeekendParkingRate WeekendRate = new WeekendParkingRate();
+                    PaidUntill = PaidUntill.AddMinutes(WeekendRate.ComputeParkingRate(payment));
+
+                    break;
+                default:
+                    if (PaidUntill < DateTime.Now) PaidUntill = DateTime.Now;
+                    WeekdayParkingRate WeekdayRate = new WeekdayParkingRate();
+                    PaidUntill = PaidUntill.AddMinutes(WeekdayRate.ComputeParkingRate(payment)); break;
+            }
+            Console.WriteLine($"You can now park untill {PaidUntill}");
+        }
     }
 }
+

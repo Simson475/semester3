@@ -6,6 +6,7 @@ namespace MiniprojektMenu
     class Menu : PrintableMenu, IMenuPoints
     {
         public Menu(string title) => Title = title;
+        public Menu() { }
         protected List<IMenuPoints> Content { get; set; } = new List<IMenuPoints>();
 
         protected int _ActiveElement;
@@ -20,8 +21,8 @@ namespace MiniprojektMenu
             }
         }
         public void Add(IMenuPoints item) => Content.Add(item);
-        public void Start() => PrintContent();
-        public virtual void PrintContent()
+        public void Start() => Select();
+        public virtual void Select()
         {
             ConsoleKey Keypressed;
             do
@@ -31,10 +32,11 @@ namespace MiniprojektMenu
                 Keypressed = Console.ReadKey().Key;
                 if (Keypressed == ConsoleKey.UpArrow) ActiveElement--;
                 else if (Keypressed == ConsoleKey.DownArrow) ActiveElement++;
+
                 else if (Keypressed == ConsoleKey.Enter) OpenSubmenu();
             } while (Keypressed != ConsoleKey.Escape);
         }
-        protected virtual void OpenSubmenu() => Content[ActiveElement].PrintContent();
+        protected virtual void OpenSubmenu() => Content[ActiveElement].Select();
         protected virtual void PrintMenu()
         {
             PrintLine($"[[[{Title}]]]", ConsoleColor.Blue);

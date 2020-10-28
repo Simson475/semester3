@@ -7,7 +7,9 @@ C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\bin\Debug\netcoreapp3.1\Mi
 C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Debug\netcoreapp3.1\MiniprojektMenu.csprojAssemblyReference.cache
 C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Debug\netcoreapp3.1\MiniprojektMenu.AssemblyInfoInputs.cache
 C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Debug\netcoreapp3.1\MiniprojektMenu.AssemblyInfo.cs
-C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Debug\netcoreapp3.1\MiniprojektMenu.csproj.CoreCompileInputs.cache
 C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Debug\netcoreapp3.1\MiniprojektMenu.dll
 C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Debug\netcoreapp3.1\MiniprojektMenu.pdb
 C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Debug\netcoreapp3.1\MiniprojektMenu.genruntimeconfig.cache
+C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\bin\Debug\netcoreapp3.1\System.ServiceModel.Syndication.dll
+C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Debug\netcoreapp3.1\MiniprojektMenu.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Debug\netcoreapp3.1\MiniprojektMenu.csproj.CopyComplete

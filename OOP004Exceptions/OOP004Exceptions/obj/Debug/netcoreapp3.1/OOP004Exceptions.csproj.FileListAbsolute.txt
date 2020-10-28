@@ -1,0 +1,13 @@
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\bin\Debug\netcoreapp3.1\OOP004Exceptions.exe
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\bin\Debug\netcoreapp3.1\OOP004Exceptions.deps.json
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\bin\Debug\netcoreapp3.1\OOP004Exceptions.runtimeconfig.json
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\bin\Debug\netcoreapp3.1\OOP004Exceptions.runtimeconfig.dev.json
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\bin\Debug\netcoreapp3.1\OOP004Exceptions.dll
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\bin\Debug\netcoreapp3.1\OOP004Exceptions.pdb
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\obj\Debug\netcoreapp3.1\OOP004Exceptions.csprojAssemblyReference.cache
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\obj\Debug\netcoreapp3.1\OOP004Exceptions.AssemblyInfoInputs.cache
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\obj\Debug\netcoreapp3.1\OOP004Exceptions.AssemblyInfo.cs
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\obj\Debug\netcoreapp3.1\OOP004Exceptions.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\obj\Debug\netcoreapp3.1\OOP004Exceptions.dll
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\obj\Debug\netcoreapp3.1\OOP004Exceptions.pdb
+C:\Programs\semester3\OOP004Exceptions\OOP004Exceptions\obj\Debug\netcoreapp3.1\OOP004Exceptions.genruntimeconfig.cache

@@ -7,18 +7,22 @@ namespace MiniprojektMenu
         public string Title { get; set; }
         protected void PrintLine(string text, ConsoleColor color)
         {
-            int Width = Console.WindowWidth / 2 - text.Length / 2;
-            string Padding = "";
-            for (int i = 0; i <= Width; i++)
+
+
+            string[] AllLines = text.Split("\n");
+            foreach (string item in AllLines)
             {
-                Padding += " ";
+                int Width = Console.WindowWidth / 2 - item.Length / 2;
+                string Padding = "";
+                for (int i = 0; i <= Width; i++)
+                {
+                    Padding += " ";
+                }
+                Console.Write(Padding);
+                Console.BackgroundColor = color;
+                Console.WriteLine(item);
+                Console.ResetColor();
             }
-            Console.Write(Padding);
-
-            Console.BackgroundColor = color;
-
-            Console.WriteLine(text);
-            Console.ResetColor();
         }
     }
 }

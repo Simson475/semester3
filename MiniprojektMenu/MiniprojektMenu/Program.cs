@@ -1,5 +1,4 @@
-﻿using System.Drawing;
-using System.IO;
+﻿using System.IO;
 
 namespace MiniprojektMenu
 {
@@ -16,6 +15,9 @@ namespace MiniprojektMenu
             menu.Add(new InfiniteMenu("Uendelig menu"));
             menu.Add(underMenu);
             menu.Add(new FileSystemMenu(new DirectoryInfo("C:\\")));
+            menu.Add(new DRMenu());
+            menu.Add(new RSSMenu("http://blog.dota2.com/feed/"));
+            menu.Add(new RSSMenu("Https://news.ycombinator.com/rss"));
             menu.Start();
         }
     }

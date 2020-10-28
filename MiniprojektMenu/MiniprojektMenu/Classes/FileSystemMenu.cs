@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace MiniprojektMenu
@@ -8,9 +9,9 @@ namespace MiniprojektMenu
         public FileSystemMenu(DirectoryInfo directory) : base(directory.Name)
         {
             Directory = directory;
-            Files = Directory.GetFileSystemInfos();
+            Files = new List<FileSystemInfo>(Directory.GetFileSystemInfos());
         }
-        private FileSystemInfo[] Files { get; set; }
+        private List<FileSystemInfo> Files { get; set; }
         private DirectoryInfo Directory { get; set; }
 
         protected override int ActiveElement
@@ -18,8 +19,8 @@ namespace MiniprojektMenu
             get => _ActiveElement;
             set
             {
-                if (value < 0) _ActiveElement = Content.Count - 1;
-                else if (value >= Files.Length) _ActiveElement = 0;
+                if (value < 0) _ActiveElement = Files.Count - 1;
+                else if (value >= Files.Count) _ActiveElement = 0;
                 else _ActiveElement = value;
             }
         }
@@ -27,7 +28,7 @@ namespace MiniprojektMenu
         {
 
             PrintLine($"[[[{Title}]]]", ConsoleColor.Blue);
-            for (int i = 0; i < Files.Length; i++)
+            for (int i = 0; i < Files.Count; i++)
             {
                 PrintLine(Files[i].Name, i == ActiveElement ? ConsoleColor.DarkGray : Console.BackgroundColor);
             }
@@ -37,11 +38,26 @@ namespace MiniprojektMenu
             FileSystemInfo CurrentFile = Files[ActiveElement];
             if (CurrentFile is DirectoryInfo Info)
             {
-                new FileSystemMenu(Info).PrintContent();
+                new FileSystemMenu(Info).Select();
             }
             else
             {
-                new MenuItem(CurrentFile.Name, "You opened a file").PrintContent();
+
+                try
+                {
+                    string[] AllLines = File.ReadAllLines(CurrentFile.FullName);
+                    string LinesTogether = "";
+                    foreach (string item in AllLines)
+                    {
+                        LinesTogether += $"{item}\n";
+                    }
+                    new MenuItem(CurrentFile.Name, LinesTogether).Select();
+                }
+                catch (Exception)
+                {
+                    Files.RemoveAt(ActiveElement);
+                    ActiveElement--;
+                }
             }
         }
     }

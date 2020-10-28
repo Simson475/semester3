@@ -1,0 +1,13 @@
+C:\Programs\semester3\OOP005Generics\OOP005Generics\bin\Debug\netcoreapp3.1\OOP005Generics.exe
+C:\Programs\semester3\OOP005Generics\OOP005Generics\bin\Debug\netcoreapp3.1\OOP005Generics.deps.json
+C:\Programs\semester3\OOP005Generics\OOP005Generics\bin\Debug\netcoreapp3.1\OOP005Generics.runtimeconfig.json
+C:\Programs\semester3\OOP005Generics\OOP005Generics\bin\Debug\netcoreapp3.1\OOP005Generics.runtimeconfig.dev.json
+C:\Programs\semester3\OOP005Generics\OOP005Generics\bin\Debug\netcoreapp3.1\OOP005Generics.dll
+C:\Programs\semester3\OOP005Generics\OOP005Generics\bin\Debug\netcoreapp3.1\OOP005Generics.pdb
+C:\Programs\semester3\OOP005Generics\OOP005Generics\obj\Debug\netcoreapp3.1\OOP005Generics.csprojAssemblyReference.cache
+C:\Programs\semester3\OOP005Generics\OOP005Generics\obj\Debug\netcoreapp3.1\OOP005Generics.AssemblyInfoInputs.cache
+C:\Programs\semester3\OOP005Generics\OOP005Generics\obj\Debug\netcoreapp3.1\OOP005Generics.AssemblyInfo.cs
+C:\Programs\semester3\OOP005Generics\OOP005Generics\obj\Debug\netcoreapp3.1\OOP005Generics.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\OOP005Generics\OOP005Generics\obj\Debug\netcoreapp3.1\OOP005Generics.dll
+C:\Programs\semester3\OOP005Generics\OOP005Generics\obj\Debug\netcoreapp3.1\OOP005Generics.pdb
+C:\Programs\semester3\OOP005Generics\OOP005Generics\obj\Debug\netcoreapp3.1\OOP005Generics.genruntimeconfig.cache

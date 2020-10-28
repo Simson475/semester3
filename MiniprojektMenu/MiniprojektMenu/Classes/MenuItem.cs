@@ -14,7 +14,7 @@ namespace MiniprojektMenu
             Content = content;
         }
         protected string Content { get; set; } = "";
-        public void PrintContent()
+        public void Select()
         {
             ConsoleKey Keypressed;
             Console.Clear();

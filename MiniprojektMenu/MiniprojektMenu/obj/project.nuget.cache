@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GwaEXBufPe39yzJwLTkPkHv7BLENMEXgiwO/XnDyw5OGwBAfYt4gBQwCJtWqbrtIWbfKVEDgZJx8noLRfDUp1A==",
+  "dgSpecHash": "H4hsAhH2vJjZ7ucCbe8BXI4BwGlOpTk1RkIfttM3/SYB6nJ/1lCG+jSrTBW6ATLioCZdyNZBtpKIT+SbgFCkDw==",
   "success": true,
   "projectFilePath": "C:\\Programs\\semester3\\MiniprojektMenu\\MiniprojektMenu\\MiniprojektMenu.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\simsy\\.nuget\\packages\\system.servicemodel.syndication\\4.7.0\\system.servicemodel.syndication.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -11,3 +11,5 @@ C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Release\netcoreapp3.1\
 C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Release\netcoreapp3.1\MiniprojektMenu.dll
 C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Release\netcoreapp3.1\MiniprojektMenu.pdb
 C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Release\netcoreapp3.1\MiniprojektMenu.genruntimeconfig.cache
+C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\bin\Release\netcoreapp3.1\System.ServiceModel.Syndication.dll
+C:\Programs\semester3\MiniprojektMenu\MiniprojektMenu\obj\Release\netcoreapp3.1\MiniprojektMenu.csproj.CopyComplete

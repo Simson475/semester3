@@ -1,5 +1,5 @@
 ﻿interface IMenuPoints
 {
     public string Title { get; set; }
-    public void PrintContent();
+    public void Select();
 }

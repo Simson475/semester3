@@ -1,0 +1,13 @@
+C:\Programs\semester3\XMLSerializer\XMLSerializer\bin\Debug\netcoreapp3.1\XMLSerializer.exe
+C:\Programs\semester3\XMLSerializer\XMLSerializer\bin\Debug\netcoreapp3.1\XMLSerializer.deps.json
+C:\Programs\semester3\XMLSerializer\XMLSerializer\bin\Debug\netcoreapp3.1\XMLSerializer.runtimeconfig.json
+C:\Programs\semester3\XMLSerializer\XMLSerializer\bin\Debug\netcoreapp3.1\XMLSerializer.runtimeconfig.dev.json
+C:\Programs\semester3\XMLSerializer\XMLSerializer\bin\Debug\netcoreapp3.1\XMLSerializer.dll
+C:\Programs\semester3\XMLSerializer\XMLSerializer\bin\Debug\netcoreapp3.1\XMLSerializer.pdb
+C:\Programs\semester3\XMLSerializer\XMLSerializer\obj\Debug\netcoreapp3.1\XMLSerializer.csprojAssemblyReference.cache
+C:\Programs\semester3\XMLSerializer\XMLSerializer\obj\Debug\netcoreapp3.1\XMLSerializer.AssemblyInfoInputs.cache
+C:\Programs\semester3\XMLSerializer\XMLSerializer\obj\Debug\netcoreapp3.1\XMLSerializer.AssemblyInfo.cs
+C:\Programs\semester3\XMLSerializer\XMLSerializer\obj\Debug\netcoreapp3.1\XMLSerializer.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\XMLSerializer\XMLSerializer\obj\Debug\netcoreapp3.1\XMLSerializer.dll
+C:\Programs\semester3\XMLSerializer\XMLSerializer\obj\Debug\netcoreapp3.1\XMLSerializer.pdb
+C:\Programs\semester3\XMLSerializer\XMLSerializer\obj\Debug\netcoreapp3.1\XMLSerializer.genruntimeconfig.cache

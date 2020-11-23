@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YKKWdvwop6q0BpQo2k/Kz9j942YSfQj3BZLggaLxn/+0oYi72s57qZUwC0EBECuuK6i/xb99jXPOuQFbatmP+w==",
+  "success": true,
+  "projectFilePath": "C:\\Programs\\semester3\\MyMath\\MyMath\\MyMath.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simsy\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\simsy\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

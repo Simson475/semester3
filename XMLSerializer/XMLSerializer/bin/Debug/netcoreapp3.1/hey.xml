@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Simon Nielsen">
+  <Age>
+    <AgeInYears>27</AgeInYears>
+  </Age>
+  <Male>true</Male>
+</Person>

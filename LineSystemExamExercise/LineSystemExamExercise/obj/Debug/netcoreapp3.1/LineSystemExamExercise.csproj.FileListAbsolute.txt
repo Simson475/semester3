@@ -1,0 +1,16 @@
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\bin\Debug\netcoreapp3.1\LineSystemExamExercise.exe
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\bin\Debug\netcoreapp3.1\LineSystemExamExercise.deps.json
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\bin\Debug\netcoreapp3.1\LineSystemExamExercise.runtimeconfig.json
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\bin\Debug\netcoreapp3.1\LineSystemExamExercise.runtimeconfig.dev.json
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\bin\Debug\netcoreapp3.1\LineSystemExamExercise.dll
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\bin\Debug\netcoreapp3.1\LineSystemExamExercise.pdb
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\obj\Debug\netcoreapp3.1\LineSystemExamExercise.csprojAssemblyReference.cache
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\obj\Debug\netcoreapp3.1\LineSystemExamExercise.AssemblyInfoInputs.cache
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\obj\Debug\netcoreapp3.1\LineSystemExamExercise.AssemblyInfo.cs
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\obj\Debug\netcoreapp3.1\LineSystemExamExercise.dll
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\obj\Debug\netcoreapp3.1\LineSystemExamExercise.pdb
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\obj\Debug\netcoreapp3.1\LineSystemExamExercise.genruntimeconfig.cache
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\bin\Debug\netcoreapp3.1\NSubstitute.dll
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\obj\Debug\netcoreapp3.1\LineSystemExamExercise.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\LineSystemExamExercise\LineSystemExamExercise\obj\Debug\netcoreapp3.1\LineSystemExamExercise.csproj.CopyComplete

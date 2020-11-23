@@ -1,0 +1,9 @@
+C:\Programs\semester3\MyMath\MyMath\bin\Debug\netstandard2.0\MyMath.deps.json
+C:\Programs\semester3\MyMath\MyMath\bin\Debug\netstandard2.0\MyMath.dll
+C:\Programs\semester3\MyMath\MyMath\bin\Debug\netstandard2.0\MyMath.pdb
+C:\Programs\semester3\MyMath\MyMath\obj\Debug\netstandard2.0\MyMath.csprojAssemblyReference.cache
+C:\Programs\semester3\MyMath\MyMath\obj\Debug\netstandard2.0\MyMath.AssemblyInfoInputs.cache
+C:\Programs\semester3\MyMath\MyMath\obj\Debug\netstandard2.0\MyMath.AssemblyInfo.cs
+C:\Programs\semester3\MyMath\MyMath\obj\Debug\netstandard2.0\MyMath.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\MyMath\MyMath\obj\Debug\netstandard2.0\MyMath.dll
+C:\Programs\semester3\MyMath\MyMath\obj\Debug\netstandard2.0\MyMath.pdb

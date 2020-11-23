@@ -1,0 +1,13 @@
+C:\Programs\semester3\OOP008Test\OOP008Test\bin\Debug\netcoreapp3.1\OOP008Test.exe
+C:\Programs\semester3\OOP008Test\OOP008Test\bin\Debug\netcoreapp3.1\OOP008Test.deps.json
+C:\Programs\semester3\OOP008Test\OOP008Test\bin\Debug\netcoreapp3.1\OOP008Test.runtimeconfig.json
+C:\Programs\semester3\OOP008Test\OOP008Test\bin\Debug\netcoreapp3.1\OOP008Test.runtimeconfig.dev.json
+C:\Programs\semester3\OOP008Test\OOP008Test\bin\Debug\netcoreapp3.1\OOP008Test.dll
+C:\Programs\semester3\OOP008Test\OOP008Test\bin\Debug\netcoreapp3.1\OOP008Test.pdb
+C:\Programs\semester3\OOP008Test\OOP008Test\obj\Debug\netcoreapp3.1\OOP008Test.csprojAssemblyReference.cache
+C:\Programs\semester3\OOP008Test\OOP008Test\obj\Debug\netcoreapp3.1\OOP008Test.AssemblyInfoInputs.cache
+C:\Programs\semester3\OOP008Test\OOP008Test\obj\Debug\netcoreapp3.1\OOP008Test.AssemblyInfo.cs
+C:\Programs\semester3\OOP008Test\OOP008Test\obj\Debug\netcoreapp3.1\OOP008Test.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\OOP008Test\OOP008Test\obj\Debug\netcoreapp3.1\OOP008Test.dll
+C:\Programs\semester3\OOP008Test\OOP008Test\obj\Debug\netcoreapp3.1\OOP008Test.pdb
+C:\Programs\semester3\OOP008Test\OOP008Test\obj\Debug\netcoreapp3.1\OOP008Test.genruntimeconfig.cache

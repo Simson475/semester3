@@ -1,0 +1,13 @@
+C:\Programs\semester3\OOP009Collections\OOP009Collections\bin\Debug\netcoreapp3.1\OOP009Collections.exe
+C:\Programs\semester3\OOP009Collections\OOP009Collections\bin\Debug\netcoreapp3.1\OOP009Collections.deps.json
+C:\Programs\semester3\OOP009Collections\OOP009Collections\bin\Debug\netcoreapp3.1\OOP009Collections.runtimeconfig.json
+C:\Programs\semester3\OOP009Collections\OOP009Collections\bin\Debug\netcoreapp3.1\OOP009Collections.runtimeconfig.dev.json
+C:\Programs\semester3\OOP009Collections\OOP009Collections\bin\Debug\netcoreapp3.1\OOP009Collections.dll
+C:\Programs\semester3\OOP009Collections\OOP009Collections\bin\Debug\netcoreapp3.1\OOP009Collections.pdb
+C:\Programs\semester3\OOP009Collections\OOP009Collections\obj\Debug\netcoreapp3.1\OOP009Collections.csprojAssemblyReference.cache
+C:\Programs\semester3\OOP009Collections\OOP009Collections\obj\Debug\netcoreapp3.1\OOP009Collections.AssemblyInfoInputs.cache
+C:\Programs\semester3\OOP009Collections\OOP009Collections\obj\Debug\netcoreapp3.1\OOP009Collections.AssemblyInfo.cs
+C:\Programs\semester3\OOP009Collections\OOP009Collections\obj\Debug\netcoreapp3.1\OOP009Collections.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\OOP009Collections\OOP009Collections\obj\Debug\netcoreapp3.1\OOP009Collections.dll
+C:\Programs\semester3\OOP009Collections\OOP009Collections\obj\Debug\netcoreapp3.1\OOP009Collections.pdb
+C:\Programs\semester3\OOP009Collections\OOP009Collections\obj\Debug\netcoreapp3.1\OOP009Collections.genruntimeconfig.cache

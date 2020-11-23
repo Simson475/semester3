@@ -1,0 +1,13 @@
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\bin\Debug\netcoreapp3.1\MyFirstUnitTest.exe
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\bin\Debug\netcoreapp3.1\MyFirstUnitTest.deps.json
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\bin\Debug\netcoreapp3.1\MyFirstUnitTest.runtimeconfig.json
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\bin\Debug\netcoreapp3.1\MyFirstUnitTest.runtimeconfig.dev.json
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\bin\Debug\netcoreapp3.1\MyFirstUnitTest.dll
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\bin\Debug\netcoreapp3.1\MyFirstUnitTest.pdb
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\obj\Debug\netcoreapp3.1\MyFirstUnitTest.csprojAssemblyReference.cache
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\obj\Debug\netcoreapp3.1\MyFirstUnitTest.AssemblyInfoInputs.cache
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\obj\Debug\netcoreapp3.1\MyFirstUnitTest.AssemblyInfo.cs
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\obj\Debug\netcoreapp3.1\MyFirstUnitTest.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\obj\Debug\netcoreapp3.1\MyFirstUnitTest.dll
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\obj\Debug\netcoreapp3.1\MyFirstUnitTest.pdb
+C:\Programs\semester3\MyFirstUnitTest\MyFirstUnitTest\obj\Debug\netcoreapp3.1\MyFirstUnitTest.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\bin\Debug\netcoreapp3.1\OOP007Delegates.exe
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\bin\Debug\netcoreapp3.1\OOP007Delegates.deps.json
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\bin\Debug\netcoreapp3.1\OOP007Delegates.runtimeconfig.json
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\bin\Debug\netcoreapp3.1\OOP007Delegates.runtimeconfig.dev.json
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\bin\Debug\netcoreapp3.1\OOP007Delegates.dll
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\bin\Debug\netcoreapp3.1\OOP007Delegates.pdb
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\obj\Debug\netcoreapp3.1\OOP007Delegates.csprojAssemblyReference.cache
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\obj\Debug\netcoreapp3.1\OOP007Delegates.AssemblyInfoInputs.cache
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\obj\Debug\netcoreapp3.1\OOP007Delegates.AssemblyInfo.cs
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\obj\Debug\netcoreapp3.1\OOP007Delegates.csproj.CoreCompileInputs.cache
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\obj\Debug\netcoreapp3.1\OOP007Delegates.dll
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\obj\Debug\netcoreapp3.1\OOP007Delegates.pdb
+C:\Programs\semester3\OOP007Delegates\OOP007Delegates\obj\Debug\netcoreapp3.1\OOP007Delegates.genruntimeconfig.cache

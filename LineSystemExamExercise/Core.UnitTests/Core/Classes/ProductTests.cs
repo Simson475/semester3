@@ -18,7 +18,7 @@ namespace Core.UnitTests.Core.Classes
         {
             // Arrange
             Product product = CreateProduct();
-            string expected = "1: test, 100.-";
+            string expected = "1: test, 100,-";
             // Act
             string result = product.ToString();
 
@@ -50,11 +50,10 @@ namespace Core.UnitTests.Core.Classes
         public void Price_PriceBelow0_ErrorIsThrown()
         {
             // Arrange
-            Product product = CreateProduct();
             // Act
             try
             {
-                product.Price = -10;
+                Product product = new Product("name", -10, true);
             }
             catch (ArgumentException)
             {

@@ -33,7 +33,7 @@ namespace Core.UnitTests.Core.Classes
             productCatalog.ImportCSVfile();
             Product result = productCatalog.AllProducts[0];
             // Assert
-            Assert.AreEqual("1: Diverse, 1.-", result.ToString());
+            Assert.AreEqual("1: Diverse, 1,-", result.ToString());
         }
         [Test]
         public void ImportCSVfile_WrongPathSpecified_ErrorThrown()

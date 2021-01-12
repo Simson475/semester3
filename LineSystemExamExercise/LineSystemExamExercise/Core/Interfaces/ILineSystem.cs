@@ -9,9 +9,11 @@ namespace Core
         InsertCashTransaction AddCreditsToAccount(User user, decimal amount);
         BuyTransaction BuyProduct(User user, Product product);
         Product GetProductByID(int id);
-        List<Transaction> GetTransactions(User user, int count);
+        List<Transaction> GetBuyTransactions(User user, int count);
         List<User> GetUsers(Func<User, bool> predicate);
         User GetUserByUsername(string username);
-        //event UserBalanceNotification UserBalanceWarning; TODO
+        event EventHandler<User> UserBalanceWarningEvent;
+        event EventHandler<Transaction> TransactionExecutedEvent;
+
     }
 }

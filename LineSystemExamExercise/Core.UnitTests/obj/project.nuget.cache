@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0wwPaSjGfckZYAFGtNRV8ujul+e8f9PcrAaaOE9NeUupdJ7cq6Bu+QpzyJg0nhLsU9SubBOn6YbvoJonqNP7dg==",
+  "dgSpecHash": "iWQU3L0YznXeBTNFpbmoWGOZZOrvsER6yy5aiZOffbzdin5zJ8MmHWfcaXTeROV8fSEAQi9LvOXrl2XPl9FgyQ==",
   "success": true,
-  "projectFilePath": "C:\\Programs\\semester3\\LineSystemExamExercise\\Core.UnitTests\\Core.UnitTests.csproj",
+  "projectFilePath": "C:\\Programs\\semester3\\LineSystemExamExercise\\Core.UnitTests\\LineSystem.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simsy\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\simsy\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",

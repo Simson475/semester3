@@ -16,7 +16,7 @@ namespace Core.UnitTests.Core.Classes
         {
             subUser = Substitute.For<User>();
             subProduct = Substitute.For<Product>();
-            subProduct.Active = true;
+            subProduct.IsActive = true;
             subProduct.Price = 100m;
             subProduct.Name = "prod";
             subUser.FirstName = "f";
@@ -72,9 +72,9 @@ namespace Core.UnitTests.Core.Classes
         public void Execute_InactiveProduct_ErrorIsThrown()
         {
             // Arrange
-            subProduct.Active = false;
+            subProduct.IsActive = false;
             BuyTransaction buyTransaction = CreateBuyTransaction();
-            string expected = $"{subProduct.Name} is unavailable, you have not been billed.";
+            string expected = $"{subProduct.Name} is unavailable";
             // Act
             try
             {

@@ -1,4 +1,5 @@
-﻿using Core;
+﻿using CommandParser;
+using Core;
 using UserInterface;
 
 namespace LineSystemExamExercise
@@ -8,8 +9,10 @@ namespace LineSystemExamExercise
         static void Main()
         {
             LineSystemBuilder builder = new LineSystemBuilder();
+
             LineSystem lineSystem = builder.Build();
             LineSystemCLI CLI = new LineSystemCLI(lineSystem);
+            LineSystemCommandParser commandParser = new LineSystemCommandParser(CLI, lineSystem);
             CLI.Start();
         }
     }

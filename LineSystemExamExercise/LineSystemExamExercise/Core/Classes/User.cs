@@ -4,7 +4,10 @@ using System.Text.RegularExpressions;
 
 namespace Core
 {
-    public class User : IComparable<User>//TODO constructor
+    /// <summary>
+    /// synbolises a user of the system.
+    /// </summary>
+    public class User : IComparable<User>
     {
         public User() { }
         public User(int id, string firstName, string lastName, string username, decimal balance, string email)
@@ -15,6 +18,8 @@ namespace Core
             Username = username;
             Balance = balance;
             Email = email;
+            NextID = Math.Max(NextID, id);
+
         }
         public User(string firstName, string lastName, string username, decimal balance, string email)
         {
@@ -30,7 +35,6 @@ namespace Core
         private string _LastName;
         private string _Username;
         private string _Email;
-        private decimal _Balance;
         #endregion
 
         //ID generation
@@ -38,27 +42,30 @@ namespace Core
         public static int GetNextID() => NextID++;
 
         #region Properties
-        public int ID { get; set; }//TODO implement this as a set through constructor
-        public string FirstName//TODO test null is thrown
+        public int ID { get; }
+        public string FirstName
         {
             get { return _FirstName; }
             set { _FirstName = value ?? throw new ArgumentNullException(); }
         }
-        public string LastName//TODO test null is thrown
+        public string LastName
         {
             get { return _LastName; }
             set { _LastName = value ?? throw new ArgumentNullException(); }
         }
-        public string Username//TODO check the regex works
+        public string FullName => $"{FirstName} {LastName}";
+
+        public string Username
         {
             get { return _Username; }
             set
             {
+                if (value == null) throw new ArgumentNullException("username cannot be null");
                 Regex CharChecker = new Regex("^[0-9a-z_]*$");//from string start to string end only conclude 0-9 a-z _ all 0 or more times
                 _Username = CharChecker.IsMatch(value) ? value : throw new ArgumentException("Username can only include lowercase 0-9 and _", value);
             }
         }
-        public string Email//todo test
+        public string Email
         {
             get { return _Email; }
             set
@@ -68,44 +75,34 @@ namespace Core
             }
         }
 
-        public decimal Balance
-        {
-            get { return _Balance; }
-            set
-            {
-                _Balance = value;
-                if (_Balance <= 50)
-                {
-                    //TODO when to use the delegate UserBalanceNotification
-                }
-            }
-        }
+        public decimal Balance { get; set; }
         #endregion
 
         #region Methods
 
         public override string ToString() => $"{FirstName} {LastName} ({Email})";
-        public override bool Equals(object obj)//TODO
+
+        public override bool Equals(object obj)
         {
-            if (!(obj is User)) return false;
-            User userObj = obj as User;
-            if (ID != userObj.ID) return false;
-            return true;
-            //TODO potentially make more? but this should be enough
+            if (!(obj is User user)) return false;
+            if (ID != user.ID) return false;
+            return this.GetHashCode() == user.GetHashCode();
 
         }
-        public override int GetHashCode()//TODO check if any of these will ever be changed.
+
+        public override int GetHashCode()
         {
-            return ID.GetHashCode() + FirstName.GetHashCode() + LastName.GetHashCode() + Username.GetHashCode() + Email.GetHashCode();
+            return HashCode.Combine(ID, FirstName, LastName, Username, Email) * 97;
         }
+
 
         public int CompareTo(User other)
         {
+            //Id should be unique so we can just compare that
             return ID.CompareTo(other.ID);
         }
 
         #endregion
     }
-    delegate void UserBalanceNotification(User user, decimal balance);//TODO
 
 }

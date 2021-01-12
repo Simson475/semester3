@@ -1,4 +1,5 @@
 ﻿using Core;
+using System;
 
 namespace UserInterface
 {
@@ -13,8 +14,9 @@ namespace UserInterface
         void DisplayUserBuysProduct(int count, BuyTransaction transaction);
         void Close();
         void DisplayInsufficientCash(User user, Product product);
+        void DisplayInsufficientCash(User user, Product product, int amount);
         void DisplayGeneralError(string errorString);
         void Start();
-        //event StregsystemEvent CommandEntered; TODO
+        event EventHandler<string> CommandEntered;
     }
 }

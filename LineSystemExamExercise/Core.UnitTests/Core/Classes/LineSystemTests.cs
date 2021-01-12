@@ -18,7 +18,7 @@ namespace Core.UnitTests.Core.Classes
         {
             subUser = Substitute.For<User>();
             subProduct = Substitute.For<Product>();
-            subProduct.Active = true;
+            subProduct.IsActive = true;
             subProduct.Price = 100m;
             subProduct.Name = "prod";
             subProduct.ID = 1;
@@ -68,7 +68,7 @@ namespace Core.UnitTests.Core.Classes
         }
 
 
-        [Test]//TODO test when product does not exist
+        [Test]
         public void GetProductByID_GetProductById_CorrectProductIsReturned()
         {
             // Arrange
@@ -78,7 +78,7 @@ namespace Core.UnitTests.Core.Classes
             lineSystem.CurrentProductCatalog = subCatalog;
             subProduct2.Name = "test2";
             subProduct2.ID = 5;
-            subProduct2.Active = true;
+            subProduct2.IsActive = true;
             subCatalog.AllProducts.Add(subProduct);
             subCatalog.AllProducts.Add(subProduct2);
 
@@ -92,7 +92,35 @@ namespace Core.UnitTests.Core.Classes
             Assert.AreEqual(ID, result.ID);
         }
 
-        [Test]//TODO instead check if users are the real ones
+        [Test]
+        public void GetProductByID_NoProductWithId_ErrorIsThrown()
+        {
+            // Arrange
+            LineSystem lineSystem = CreateLineSystem();
+            ProductCatalog subCatalog = Substitute.For<ProductCatalog>();
+            lineSystem.CurrentProductCatalog = subCatalog;
+            subCatalog.AllProducts.Add(subProduct);
+
+
+            int ID = 5;
+
+            // Act
+            try
+            {
+                Product result = lineSystem.GetProductByID(ID);
+
+            }
+            catch (ProductNotFoundException)
+            {
+                // Assert
+                Assert.Pass();
+                return;
+            }
+
+            Assert.Fail();
+        }
+
+        [Test]
         public void GetUsers_GetUsersWithLastNameNielsen_Gets5UsersWithLastNameNielsen()
         {
             // Arrange
@@ -117,7 +145,7 @@ namespace Core.UnitTests.Core.Classes
             Assert.AreEqual(expected, result);
         }
 
-        [Test]//todo test when user not present
+        [Test]
         public void GetUserByUsername_FindUserWithUsernameZelda_UserFound()
         {
             // Arrange 
@@ -132,13 +160,49 @@ namespace Core.UnitTests.Core.Classes
                 subUserDatabase.Users.Add(newSubUser);
             }
             LineSystem lineSystem = CreateLineSystem();
-            lineSystem.CurrentUserDatabase = subUserDatabase; string username = "zelda";
+            lineSystem.CurrentUserDatabase = subUserDatabase;
+            string username = "zelda";
 
             // Act
             var result = lineSystem.GetUserByUsername(username);
 
             // Assert
             Assert.AreEqual(username, result.Username);
+        }
+
+        [Test]
+
+        public void GetUserByUsername_NoUserWithUsername_ExceptionIsThrown()
+        {
+            // Arrange 
+            UserDatabase subUserDatabase = Substitute.For<UserDatabase>();
+            subUserDatabase.Users.Add(subUser);
+            for (int i = 0; i < 50; i++)
+            {
+                User newSubUser = Substitute.For<User>();
+                newSubUser.FirstName = "test";
+                if (i % 10 == 0) newSubUser.LastName = "Nielsen";
+                else newSubUser.LastName = "test";
+                subUserDatabase.Users.Add(newSubUser);
+            }
+            LineSystem lineSystem = CreateLineSystem();
+            lineSystem.CurrentUserDatabase = subUserDatabase;
+
+            string username = "derp";
+
+            // Act
+            try
+            {
+                _ = lineSystem.GetUserByUsername(username);
+            }
+            catch (NoUserFoundException)
+            {
+                // Assert
+                Assert.Pass();
+                return;
+            }
+
+            Assert.Fail();
         }
 
         [Test]//test if they are at the right spots
@@ -150,12 +214,12 @@ namespace Core.UnitTests.Core.Classes
             subBuyTransaction.User = subUser;
             int expected = 2;
 
-            InsertCashTransaction subInsertCashTransaction = Substitute.For<InsertCashTransaction>();
-            subInsertCashTransaction.User = subUser;
+            BuyTransaction subBuyTransaction2 = Substitute.For<BuyTransaction>();
+            subBuyTransaction2.User = subUser;
             lineSystem.SuccessfulTransactions.Add(subBuyTransaction);
-            lineSystem.SuccessfulTransactions.Add(subInsertCashTransaction);
+            lineSystem.SuccessfulTransactions.Add(subBuyTransaction2);
             // Act
-            List<Transaction> result = lineSystem.GetTransactions(subUser);
+            List<Transaction> result = lineSystem.GetBuyTransactions(subUser);
 
             // Assert
             Assert.AreEqual(expected, result.Count);

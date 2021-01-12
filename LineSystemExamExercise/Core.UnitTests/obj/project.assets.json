@@ -4826,9 +4826,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programs\\semester3\\LineSystemExamExercise\\Core.UnitTests\\Core.UnitTests.csproj",
-      "projectName": "Core.UnitTests",
-      "projectPath": "C:\\Programs\\semester3\\LineSystemExamExercise\\Core.UnitTests\\Core.UnitTests.csproj",
+      "projectUniqueName": "C:\\Programs\\semester3\\LineSystemExamExercise\\Core.UnitTests\\LineSystem.UnitTests.csproj",
+      "projectName": "LineSystem.UnitTests",
+      "projectPath": "C:\\Programs\\semester3\\LineSystemExamExercise\\Core.UnitTests\\LineSystem.UnitTests.csproj",
       "packagesPath": "C:\\Users\\simsy\\.nuget\\packages\\",
       "outputPath": "C:\\Programs\\semester3\\LineSystemExamExercise\\Core.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
